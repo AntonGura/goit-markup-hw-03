@@ -202,6 +202,9 @@ img {
 
 /* ======ADVANTAGES========= */
 
+.advantages {
+        padding: 120px 0;
+}
 
 .advantages-item-subtitle {
         font-weight: 500;
@@ -220,8 +223,15 @@ img {
 
 .advantages-list {
         display: flex;
-        padding: 120px 0;
         gap: 24px;
+}
+
+.advantages-item {
+        width: calc( ( 100% - 3 * 24px ) / 4 );
+}
+
+.title-advantages {
+        margin-bottom: 8px;
 }
 
 /* ========================= */
