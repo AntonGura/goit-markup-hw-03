@@ -99,8 +99,9 @@ img {
 }
 
 .header-nav-link {
-        display: block;
+
         padding: padding: 24px 0;
+        display: block;
         
 }
 
@@ -138,8 +139,8 @@ img {
 }
 
 .header-address-link {
-        display: block;
         padding: 24px 0;
+        display: block;
 }
 
 .header-address-mail,
