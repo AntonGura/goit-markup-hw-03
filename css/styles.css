@@ -69,6 +69,7 @@ img {
 .header-container {
         display: flex;
         padding: 0 15px;
+        padding: 24px 0;
         
 }
 
@@ -95,6 +96,7 @@ img {
         display: flex;
         align-items: center;
         gap: 40px;
+        
 }
 
 .header-logo-text {
@@ -113,8 +115,6 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        padding: 24px 0;
-        
 }
 
 .header-address {
@@ -132,9 +132,9 @@ img {
 
 }
 
-.header-address-item {
+/* .header-address-item {
         padding: 24px 0;
-}
+} */
 
 .header-address-mail,
 .header-address-phone {
