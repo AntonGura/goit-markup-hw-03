@@ -44,13 +44,13 @@ img {
         position: absolute;
         width: 1px;
         height: 1px;
-        margin: -1px;
         border: 0;
         padding: 0;
         white-space: nowrap;
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
         overflow: hidden;
+        margin-bottom: 8px;
 }
 
 .container {
@@ -230,10 +230,6 @@ img {
         width: calc( ( 100% - 3 * 24px ) / 4 );
 }
 
-.title-advantages {
-        margin-bottom: 8px;
-}
-
 /* ========================= */
 
 /* ======OUR TEAM========= */
@@ -264,19 +260,17 @@ padding: 120px 0;
 
 .our-team-item {
         width: calc ( (100% - 3 * 24px ) / 4);
-        background-color: #FFFFFF
+        border-radius: 0 0 4px 4px;
         
         
 
 }
 
-.our-team-item-wrap {
-        border-radius: 0 0 4px 4px;
-                padding: 0px 0px 32px 0px;
-                width: 264px;
-                height: 380px;
-                box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-                        background: #fff;
+.our-team-text-wrap {
+        padding: 32px 16px;
+        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+        background: #fff;
+
 }
 
 .our-team-item-image {}
@@ -299,10 +293,7 @@ padding: 120px 0;
         background-color: #FFFFFF
 }
 
-.our-team-text-wrap {
-        margin: 32px 16px;
 
-}
 
 /* ========================= */
 
