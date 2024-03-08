@@ -137,7 +137,8 @@ img {
 
 }
 
-.header-address-item {
+.header-address-link {
+        display: block;
         padding: 24px 0;
 }
 
